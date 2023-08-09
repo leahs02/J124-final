@@ -27,7 +27,16 @@ Addiction is a **multifaceted phenomenon** that we have created for ourselves. A
 
 Through exploratory analysis on the CDC’s data collected during the 2018 survey or something, I will illustrate the impact of the opioid crisis in America, contemplate its influences, and outline the current policies being implemented to handle it. 
 
+# What are Opioids?
+
+**Opioids** is an all ecompassing term referring to natural, semi - synthetic, and synthetic opioids. _Opiates_ are natural opioids, which are directly derived the extremely addictive latex of the seeds of the Papaver Somniferu, or opium poppies. Examples include heroin, morphine and codeine. Synthetic opiods are chemically made with examples including tramadol and fentanyl. Semi-synthetic opiods land in a grey area in between, kind of like GMOs. Heroin is an example of a semi-synthetic opioid because it is made from morphine, an opiate, but has been chemically processed. Other examples of semi-synthetic opioids include oxycodone, hydrocodone, hydromorphone, and oxymorphone.
+
+--> Analysis of NCBI graph on the potencies of different drugs: i think that this would be a helpful visual for readers to understand how serious drugs can be and poisonous drugs can be.
+
+--> analysis on the CDC OD data: i can group the data by the type of opioid it is (but that will probably just tell me that synthetic kills at a higher rate and isnt that cool so idk
+
 # Analysis
+## Changes in Opioid Related Death Rates
 
 I begin my analysis by looking at some general trends of opioid related deaths in the past few decades.
 
@@ -35,12 +44,11 @@ I begin my analysis by looking at some general trends of opioid related deaths i
 
 In exploring how long these trends have lasted, I decided to calculate the percent change in opioid overdose deaths between 1999 and 2015 utlizing the data from the CDCs blah blah blah.
 
-Step-by-step guide to calculating the percent change in opioid overdose deaths between 1999 and 2015:
-    - **Step 1:** Create a new column to store the percent change values
-         "Instert" --> "Insert Column"
-    - **Step 2:** Create a function to compute percent change
-          
-  Percent change is found by comparing the difference between the values with the original number:
+- **Step 1:** Create a new column to store the percent change values
+     "Instert" --> "Insert Column"
+- **Step 2:** Create a function to compute percent change
+  
+Percent change is found by comparing the difference between the values with the original number:
   
     Percent Change =  new - old / old * 100
 
@@ -48,13 +56,12 @@ Calculating the percent change for the data uncovered shocking results. There wa
 
 _Question 2: What age group and gender has had the highest increase of opioid overdose deaths between 1999 and 2015?_
 
-Step 1: Apply the percent change formula to all of the cells in the percent change column by clicking & dragging curser to encompass all the data.
-
-Step 2: Sort the data based on the percent change column in descending order such that the group with the highest percent change will be listed first 
+- **Step 1:** Apply the percent change formula to all of the cells in the percent change column by clicking & dragging curser to encompass all the data.
+- **Step 2:** Sort the data based on the percent change column in descending order such that the group with the highest percent change will be listed first 
 
 "Data" --> "Sort Sheet" --> "Sort sheet by column (Z-> A) 
 
-Females aged 25 - 34 saw a **1,433.33% increase in opioid related deaths between 1999 and 2015. **
+Females aged 25 - 34 saw a **1,433.33% increase in opioid related deaths between 1999 and 2015.**
 
 
 
@@ -90,35 +97,6 @@ What do all of these states have in common? They are all considered to be part o
 
 
 What do our findings tell us? well that its localized in appalacia. Why is this that the case? well let me tell you a little story about the sackler family. 
-
-# What are Opioids?
-### Analysis 1: Opioids
-
-**Opioids** is an all ecompassing term referring to natural, semi - synthetic, and synthetic opioids. _Opiates_ are natural opioids, which are directly derived the extremely addictive latex of the seeds of the Papaver Somniferu, or opium poppies. Examples include heroin, morphine and codeine. Synthetic opiods are chemically made with examples including tramadol and fentanyl. Semi-synthetic opiods land in a grey area in between, kind of like GMOs. Heroin is an example of a semi-synthetic opioid because it is made from morphine, an opiate, but has been chemically processed. Other examples of semi-synthetic opioids include oxycodone, hydrocodone, hydromorphone, and oxymorphone.
-
---> Analysis of NCBI graph on the potencies of different drugs: i think that this would be a helpful visual for readers to understand how serious drugs can be and poisonous drugs can be.
-
---> analysis on the CDC OD data: i can group the data by the type of opioid it is (but that will probably just tell me that synthetic kills at a higher rate and isnt that cool so idk
-
-
-# OD throughout history 
-### Analysis 4: Fatal Overdoses in American History
-
-
-More data on ODs, but instead of state specific, i use a differnt set of total OD in the country over time. 
-
-
-
-
-
-
-# who is taking the drugs?
-
-
-### Analysis 5: Fatal Overdoses by Demographics
-
-
-- do an analysis of drug OD by demographic: i haev a dataset that breaks down use by age and gender?
 
 
 
