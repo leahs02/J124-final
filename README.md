@@ -27,45 +27,9 @@ Addiction is a **multifaceted phenomenon** that we have created for ourselves. A
 
 Through exploratory analysis on the CDC’s data collected during the 2018 survey or something, I will illustrate the impact of the opioid crisis in America, contemplate its influences, and outline the current policies being implemented to handle it. 
 
+# Analysis
 
-
-# Who is being effected?
-### Analysis 2: Fatal Overdoses by State
-
-I began my research by looking for any overarching trends in drug overdoses in America. Utilizing data from the CDC's National Center for Health Statistics, I created a choropleth map illustrating the rate of fatal overdoses by state per 100,000 persons. 
-
-![HIGDz-fatal-overdoses-by-state-nbsp- (2)](https://github.com/leahs02/J124-final/assets/117393397/44bc430c-9f60-4584-8027-18125a360b0b)
-
-The darker the state is, the higher the rate is for drug overdoses per capita. West Virginia had the highest rate of fatal overdoses of 90 per 100,000 people dying that year from overdoses. In the area between the midwest and the east coast, this trend of high rates continues as the map darkens all throughout Kentucky and Tennessee with rates of about 56 overdose deaths per 100,000 people. 
-
-What do all of these states have in common? They are all considered to be part of the Appalachian Region. 
-
-
-
-What do our findings tell us? well that its localized in appalacia. Why is this that the case? well let me tell you a little story about the sackler family. 
-
-# What are Opioids?
-### Analysis 1: Opioids
-
-**Opioids** is an all ecompassing term referring to natural, semi - synthetic, and synthetic opioids. _Opiates_ are natural opioids, which are directly derived the extremely addictive latex of the seeds of the Papaver Somniferu, or opium poppies. Examples include heroin, morphine and codeine. Synthetic opiods are chemically made with examples including tramadol and fentanyl. Semi-synthetic opiods land in a grey area in between, kind of like GMOs. Heroin is an example of a semi-synthetic opioid because it is made from morphine, an opiate, but has been chemically processed. Other examples of semi-synthetic opioids include oxycodone, hydrocodone, hydromorphone, and oxymorphone.
-
---> Analysis of NCBI graph on the potencies of different drugs: i think that this would be a helpful visual for readers to understand how serious drugs can be and poisonous drugs can be.
-
---> analysis on the CDC OD data: i can group the data by the type of opioid it is (but that will probably just tell me that synthetic kills at a higher rate and isnt that cool so idk
-
-# Where did the drugs go?
-### Analysis 3: Perscription opioids per capita per state
-
-We saw that the drug OD rates were the highest in appalacia, so  how did the drugs get there in the first place for peole to start abusing them?
-
-- analysis from CDC data on prescriptions per state.
-
-# OD throughout history 
-### Analysis 4: Fatal Overdoses in American History
-
-
-More data on ODs, but instead of state specific, i use a differnt set of total OD in the country over time. 
-
+I begin my analysis by looking at some general trends of opioid related deaths in the past few decades.
 
 _Question 1: How have the number of opioid related deaths changed in the past couple of decades? _
 
@@ -99,6 +63,57 @@ I could do a data viz here because this b crazy. this is sc of all genders broke
 <img width="825" alt="Screenshot 2023-08-08 at 5 40 12 PM" src="https://github.com/leahs02/J124-final/assets/117393397/9776956e-f220-47e0-ac61-83c0ef3875f3">
 
 
+# Where are the drugs coming from
+### Analysis 4: Perscription opioids per capita per state
+_Question 4: What region of the US has the most opioids _
+
+use VLOOK UP with a key of the states in each geographical region and match that with the data set you have on prescriptions per state -- will find that the south has the most 
+break that down more to the individual states to see which ones get the most
+
+Mention that this is a limitation because its where the doctors wrote the perscription from, not where they were taken
+
+so then...
+
+Questions 5: 
+
+# Who is being effected?
+### Fatal Overdoses by State
+
+_Question 5: Where are the ODs taking place?_
+
+Utilizing data from the CDC's National Center for Health Statistics, I created a choropleth map illustrating the rate of fatal overdoses by state per 100,000 persons. 
+
+![HIGDz-fatal-overdoses-by-state-nbsp- (2)](https://github.com/leahs02/J124-final/assets/117393397/44bc430c-9f60-4584-8027-18125a360b0b)
+
+The darker the state is, the higher the rate is for drug overdoses per capita. West Virginia had the highest rate of fatal overdoses of 90 per 100,000 people dying that year from overdoses. In the area between the midwest and the east coast, this trend of high rates continues as the map darkens all throughout Kentucky and Tennessee with rates of about 56 overdose deaths per 100,000 people. 
+
+What do all of these states have in common? They are all considered to be part of the Appalachian Region. 
+
+
+
+What do our findings tell us? well that its localized in appalacia. Why is this that the case? well let me tell you a little story about the sackler family. 
+
+# What are Opioids?
+### Analysis 1: Opioids
+
+**Opioids** is an all ecompassing term referring to natural, semi - synthetic, and synthetic opioids. _Opiates_ are natural opioids, which are directly derived the extremely addictive latex of the seeds of the Papaver Somniferu, or opium poppies. Examples include heroin, morphine and codeine. Synthetic opiods are chemically made with examples including tramadol and fentanyl. Semi-synthetic opiods land in a grey area in between, kind of like GMOs. Heroin is an example of a semi-synthetic opioid because it is made from morphine, an opiate, but has been chemically processed. Other examples of semi-synthetic opioids include oxycodone, hydrocodone, hydromorphone, and oxymorphone.
+
+--> Analysis of NCBI graph on the potencies of different drugs: i think that this would be a helpful visual for readers to understand how serious drugs can be and poisonous drugs can be.
+
+--> analysis on the CDC OD data: i can group the data by the type of opioid it is (but that will probably just tell me that synthetic kills at a higher rate and isnt that cool so idk
+
+
+# OD throughout history 
+### Analysis 4: Fatal Overdoses in American History
+
+
+More data on ODs, but instead of state specific, i use a differnt set of total OD in the country over time. 
+
+
+
+
+
+
 # who is taking the drugs?
 
 
@@ -106,6 +121,9 @@ I could do a data viz here because this b crazy. this is sc of all genders broke
 
 
 - do an analysis of drug OD by demographic: i haev a dataset that breaks down use by age and gender?
+
+
+
 # The Sackler story 
 
 Keep it short keep it brief
