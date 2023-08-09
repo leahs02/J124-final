@@ -31,7 +31,7 @@ Through exploratory analysis on the CDC’s data collected during the 2018 surve
 
 I begin my analysis by looking at some general trends of opioid related deaths in the past few decades.
 
-_Question 1: How have the number of opioid related deaths changed in the past couple of decades? _
+*Question 1: How have the number of opioid related deaths changed in the past couple of decades?*
 
 In exploring how long these trends have lasted, I decided to calculate the percent change in opioid overdose deaths between 1999 and 2015 utlizing the data from the CDCs blah blah blah.
 
@@ -46,7 +46,7 @@ Step-by-step guide to calculating the percent change in opioid overdose deaths b
 
 Calculating the percent change for the data uncovered shocking results. There was a **171% increase** in total opioid overdose deaths between 1999 and 2015. The results are even more jarring when you break it down by age group.
 
-_Question 2: What age group and gender has had the highest increase of opioid overdose deaths between 1999 and 2015? _
+_Question 2: What age group and gender has had the highest increase of opioid overdose deaths between 1999 and 2015?_
 
 Step 1: Apply the percent change formula to all of the cells in the percent change column by clicking & dragging curser to encompass all the data.
 
@@ -65,7 +65,7 @@ I could do a data viz here because this b crazy. this is sc of all genders broke
 
 # Where are the drugs coming from
 ### Analysis 4: Perscription opioids per capita per state
-_Question 4: What region of the US has the most opioids _
+_Question 4: What region of the US has the most opioids?_
 
 use VLOOK UP with a key of the states in each geographical region and match that with the data set you have on prescriptions per state -- will find that the south has the most 
 break that down more to the individual states to see which ones get the most
@@ -73,8 +73,6 @@ break that down more to the individual states to see which ones get the most
 Mention that this is a limitation because its where the doctors wrote the perscription from, not where they were taken
 
 so then...
-
-Questions 5: 
 
 # Who is being effected?
 ### Fatal Overdoses by State
