@@ -27,6 +27,23 @@ Addiction is a **multifaceted phenomenon** that we have created for ourselves. A
 
 Through exploratory analysis on the CDC’s data collected during the 2018 survey or something, I will illustrate the impact of the opioid crisis in America, contemplate its influences, and outline the current policies being implemented to handle it. 
 
+
+
+# Who is being effected?
+### Analysis 2: Fatal Overdoses by State
+
+I began my research by looking for any overarching trends in drug overdoses in America. Utilizing data from the CDC's National Center for Health Statistics, I created a choropleth map illustrating the rate of fatal overdoses by state per 100,000 persons. 
+
+![HIGDz-fatal-overdoses-by-state-nbsp- (2)](https://github.com/leahs02/J124-final/assets/117393397/44bc430c-9f60-4584-8027-18125a360b0b)
+
+The darker the state is, the higher the rate is for drug overdoses per capita. West Virginia had the highest rate of fatal overdoses of 90 per 100,000 people dying that year from overdoses. In the area between the midwest and the east coast, this trend of high rates continues as the map darkens all throughout Kentucky and Tennessee with rates of about 56 overdose deaths per 100,000 people. 
+
+What do all of these states have in common? They are all considered to be part of the Appalachian Region. 
+
+
+
+What do our findings tell us? well that its localized in appalacia. Why is this that the case? well let me tell you a little story about the sackler family. 
+
 # What are Opioids?
 ### Analysis 1: Opioids
 
@@ -36,19 +53,59 @@ Through exploratory analysis on the CDC’s data collected during the 2018 surve
 
 --> analysis on the CDC OD data: i can group the data by the type of opioid it is (but that will probably just tell me that synthetic kills at a higher rate and isnt that cool so idk
 
-# Who is being effected?
-### Analysis 2: Fatal Overdoses by State
+# Where did the drugs go?
+### Analysis 3: Perscription opioids per capita per state
 
-little blurb on how i looked at this data and got that 
+We saw that the drug OD rates were the highest in appalacia, so  how did the drugs get there in the first place for peole to start abusing them?
 
-<iframe title="Fatal Overdoses by State " aria-label="Map" id="datawrapper-chart-HIGDz" src="https://datawrapper.dwcdn.net/HIGDz/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="647" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
+- analysis from CDC data on prescriptions per state.
+
+# OD throughout history 
+### Analysis 4: Fatal Overdoses in American History
 
 
-![HIGDz-fatal-overdoses-by-state-nbsp- (2)](https://github.com/leahs02/J124-final/assets/117393397/44bc430c-9f60-4584-8027-18125a360b0b)
+More data on ODs, but instead of state specific, i use a differnt set of total OD in the country over time. 
 
-What do our findings tell us? well that its localized in appalacia. Why is this that the case? well let me tell you a little story about the sackler family. 
 
+_Question 1: How have the number of opioid related deaths changed in the past couple of decades? _
+
+In exploring how long these trends have lasted, I decided to calculate the percent change in opioid overdose deaths between 1999 and 2015 utlizing the data from the CDCs blah blah blah.
+
+Step-by-step guide to calculating the percent change in opioid overdose deaths between 1999 and 2015:
+    - **Step 1:** Create a new column to store the percent change values
+         "Instert" --> "Insert Column"
+    - **Step 2:** Create a function to compute percent change
+          
+  Percent change is found by comparing the difference between the values with the original number:
+  
+    Percent Change =  new - old / old * 100
+
+Calculating the percent change for the data uncovered shocking results. There was a **171% increase** in total opioid overdose deaths between 1999 and 2015. The results are even more jarring when you break it down by age group.
+
+_Question 2: What age group and gender has had the highest increase of opioid overdose deaths between 1999 and 2015? _
+
+Step 1: Apply the percent change formula to all of the cells in the percent change column by clicking & dragging curser to encompass all the data.
+
+Step 2: Sort the data based on the percent change column in descending order such that the group with the highest percent change will be listed first 
+
+"Data" --> "Sort Sheet" --> "Sort sheet by column (Z-> A) 
+
+Females aged 25 - 34 saw a **1,433.33% increase in opioid related deaths between 1999 and 2015. **
+
+
+
+I could do a data viz here because this b crazy. this is sc of all genders broken down by ages
+
+<img width="825" alt="Screenshot 2023-08-08 at 5 40 12 PM" src="https://github.com/leahs02/J124-final/assets/117393397/9776956e-f220-47e0-ac61-83c0ef3875f3">
+
+
+# who is taking the drugs?
+
+
+### Analysis 5: Fatal Overdoses by Demographics
+
+
+- do an analysis of drug OD by demographic: i haev a dataset that breaks down use by age and gender?
 # The Sackler story 
 
 Keep it short keep it brief
@@ -65,25 +122,11 @@ Perdue pharma creating a **“war on pain”**. Give the data from googles etymo
 ![Screenshot 2023-08-06 at 10 59 08 PM](https://github.com/leahs02/J124-final/assets/117393397/0df9b091-ac4c-4ea2-9a90-045eccba2351)
 
 - “Figure 1: Screenshot of the tool from Google Ngram site, https://books.google.com/ngrams”
+- 
 
-# Where did the drugs go?
-### Analysis 3: Perscription opioids per capita per state
-
-We saw that the drug OD rates were the highest in appalacia, so  how did the drugs get there in the first place for peole to start abusing them?
-
-- analysis from CDC data on prescriptions per state.
-
-# OD throughout history 
-### Analysis 4: Fatal Overdoses in American History
+This is where I will make the 
 
 
-More data on ODs, but instead of state specific, i use a differnt set of total OD in the country over time. 
-
-# who is taking the drugs?
-### Analysis 5: Fatal Overdoses by Demographics
-
-
-- do an analysis of drug OD by demographic: i haev a dataset that breaks down use by age and gender?
 
 # People to contact
 
